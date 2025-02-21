@@ -1,5 +1,6 @@
 package org.example.springbootrabbitmq.controller;
 
+
 import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.example.springbootrabbitmq.payload.UserDTO;
