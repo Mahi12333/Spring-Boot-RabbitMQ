@@ -1,7 +1,5 @@
 package org.example.springbootrabbitmq.service;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.example.springbootrabbitmq.config.RabbitMQConstants;
@@ -20,7 +18,6 @@ import org.springframework.stereotype.Service;
 public class UserServiceImple implements UserService {
       private final RabbitTemplate rabbitTemplate;
       private final UserRepository userRepository;
-      //private final ObjectMapper objectMapper;
 
     @Override
     public UserDTO registerUser(UserDTO userDTO) {
